@@ -72,3 +72,67 @@ a {
     display: inline-block;
     border-radius: 30px;
 }
+/* Секція 3 */
+.services {
+    padding: 24px 52px;
+}
+.services-item {
+    display: flex;
+    gap: 15px;
+    max-width: 300px;
+}
+.services-list {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.services-img {
+    width: 49px;
+    height: 49px;
+}
+.services-title {
+   text-align: center;
+
+}
+.services-title::after{
+    content: "";
+    border-bottom: 4px solid #6278B4;
+    display: block;
+    width: 351px;
+    border-radius: 4px;
+    margin: 18px auto 47px;
+}
+.services-subtitle {
+    padding-bottom: 25px;
+}
+span {
+    color: #6278B4;
+}
+/* футер */
+.footer {
+    background-color: #535353;
+    padding-bottom: 73px;
+    padding-top: 32px;
+}
+.footer-logo {
+    border-bottom: 2px solid #6278B4;
+    display: block;
+    padding-bottom: 28px;
+}
+.footer-title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-link {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    color: #FFFFFF;
+}
