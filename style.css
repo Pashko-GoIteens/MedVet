@@ -92,7 +92,6 @@ a {
 }
 .services-title {
    text-align: center;
-
 }
 .services-title::after{
     content: "";
