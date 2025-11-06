@@ -107,6 +107,37 @@ a {
 span {
     color: #6278B4;
 }
+/* work */
+.work {
+    background-color: #DDF9FF;
+}
+.work-title {
+    color: #6278B4;
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 28px;
+}
+.work-text {
+    color: #3A2E2E;
+    font-weight: 500;
+    font-size: 20px;
+}
+.work-img {
+    display: flex;
+}
+/* specialists */
+.specialists {
+    background-color: #FBFCFF;
+}
+.specialists-title::after {
+    content: "";
+    border-bottom: 4px solid #6278B4;
+    display: block;
+    width: 351px;
+    border-radius: 4px;
+    margin: 18px auto 47px;
+}
+.
 /* футер */
 .footer {
     background-color: #535353;
